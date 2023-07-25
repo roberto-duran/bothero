@@ -12,6 +12,9 @@ const poppings = Poppins({
 
 export const metadata: Metadata = {
   title: 'Bothero',
+  icons: {
+    icon: 'favicon.ico'
+  },
   description: 'tu asistente de whatsapp',
   themeColor: '#FFF'
 }
