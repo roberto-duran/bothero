@@ -51,7 +51,7 @@ export default async function Home () {
             key={title}
             title={title}
             description={description}
-            demo={title === 'Beautiful, reusable components' ? 'hola' : demo}
+            header={title === 'header' ? 'noop' : demo}
             large={large}
           />
         ))}
@@ -62,10 +62,10 @@ export default async function Home () {
 
 const features = [
   {
-    title: 'Beautiful, reusable components',
+    title: 'Header',
     description:
-      'Pre-built beautiful, a11y-first components, powered by [Tailwind CSS](https://tailwindcss.com/), [Radix UI](https://www.radix-ui.com/), and [Framer Motion](https://framer.com/motion)',
+      'loremp ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     large: true,
-    demo: <div className='text-green-700n'>hola</div>
+    demo: <div className='text-green-700'>Content</div>
   }
 ]
