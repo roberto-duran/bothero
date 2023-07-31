@@ -9,14 +9,14 @@ export default function page () {
       </h1>
       <div className='flex flex-col gap-10 default-card h-full p-10'>
         <article>
-          <h2>Términos de Uso</h2>
+          <h2>Terminos de Uso</h2>
           <p>
-            Estos Términos y Condiciones (los "Términos") establecen los
-            términos y condiciones que rigen su uso de la aplicación BotHero (la
-            "Aplicación"), que es propiedad y operada por BotHero Inc.
-            ("BotHero"). Al usar la Aplicación, usted acepta estar vinculado por
-            estos Términos. Si no acepta estos Términos, no está autorizado a
-            usar la Aplicación.
+            Estos Términos y Condiciones (los &rdquo;Términos&rdquo;) establecen
+            los términos y condiciones que rigen su uso de la aplicación BotHero
+            (la &rdquo;Aplicación&rdquo;), que es propiedad y operada por
+            BotHero Inc. (&rdquo;BotHero&rdquo;). Al usar la Aplicación, usted
+            acepta estar vinculado por estos Términos. Si no acepta estos
+            Términos, no está autorizado a usar la Aplicación.
           </p>
         </article>
 
@@ -46,14 +46,14 @@ export default function page () {
         <article>
           <h2>Exclusión de garantías</h2>
           <p>
-            BotHero proporciona la Aplicación "tal cual" y "según esté
-            disponible". BotHero no hace ninguna declaración o garantía de
-            ningún tipo, expresa o implícita, con respecto a la Aplicación,
-            incluyendo, pero sin limitar, las garantías implícitas de
-            comerciabilidad, idoneidad para un propósito particular y no
-            infracción. BotHero no garantiza que la Aplicación cumplirá con sus
-            requisitos o que la Aplicación estará libre de errores o
-            interrupciones.
+            BotHero proporciona la Aplicación &rdquo;tal cual&rdquo; y
+            &rdquo;según esté disponible&rdquo;. BotHero no hace ninguna
+            declaración o garantía de ningún tipo, expresa o implícita, con
+            respecto a la Aplicación, incluyendo, pero sin limitar, las
+            garantías implícitas de comerciabilidad, idoneidad para un propósito
+            particular y no infracción. BotHero no garantiza que la Aplicación
+            cumplirá con sus requisitos o que la Aplicación estará libre de
+            errores o interrupciones.
           </p>
         </article>
 
@@ -113,10 +113,10 @@ export default function page () {
           <h2>Contenido de usuario</h2>
           <p>
             Todo el contenido publicado por usted en la aplicación BotHero (el
-            "Contenido de usuario") es de su exclusiva responsabilidad. Usted
-            garantiza que el Contenido de usuario es suyo y que no infringe los
-            derechos de propiedad intelectual de terceros. Usted acepta
-            indemnizar y eximir de responsabilidad.
+            &rdquo;Contenido de usuario&rdquo;) es de su exclusiva
+            responsabilidad. Usted garantiza que el Contenido de usuario es suyo
+            y que no infringe los derechos de propiedad intelectual de terceros.
+            Usted acepta indemnizar y eximir de responsabilidad.
           </p>
         </article>
       </div>
