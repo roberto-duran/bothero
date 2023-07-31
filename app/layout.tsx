@@ -29,7 +29,7 @@ export default function RootLayout ({
       <body className={poppings.className}>
         <div className='fixed h-screen w-full bg-gradient-to-br from-[#99a9dd] via-white to-[#71d5a6]' />
         <NavBar />
-        <main className='flex min-h-screen w-full flex-col items-center justify-center py-32'>
+        <main className='flex min-h-screen w-full flex-col items-center justify-center py-28'>
           {children}
         </main>
         <Footer />

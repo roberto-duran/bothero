@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base{
+  .header-title {
+    @apply bg-gradient-to-br from-black to-stone-500 bg-clip-text text-4xl text-center font-bold tracking-[-0.02em] text-transparent opacity-95 drop-shadow-sm md:text-7xl md:leading-[5rem]
+  }
+
+  .default-card{
+    @apply  relative h-96 overflow-hidden rounded-xl border border-gray-200 bg-white shadow-md 
+  }
+
+  .navbar-menu{
+    @apply flex flex-row py-2 px-4 items-center h-full hover:text-white hover:bg-gray-500 rounded-full cursor-pointer
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +38,62 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+section {
+  height: 100vh;
+  z-index: 10;
+}
+
+
+:root {
+  --white: #fff;
+  --black: #333;
+  --active-color: #f1f1f1;
+  --border-radius: 40px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: var(--active-color);
+  transition: background 1.5s ease;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.content-card {
+  width: 48%;
+  margin-bottom: 26px;
+}
+
+.content-card .info::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  bottom: -5px;
+  background: var(--active-color);
+  opacity: 0.5;
+}
+
+.content-card img {
+  border-radius: 6px;
+}
+
+.content-card h3 {
+  margin: 0 0 5px;
+}
+
+.content-card .info {
+  padding: 10px 0;
 }
