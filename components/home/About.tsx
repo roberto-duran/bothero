@@ -1,11 +1,11 @@
 export default function About () {
   return (
     <section
-      className='flex flex-col gap-10 items-center z-10 w-full px-5 '
+      className='flex flex-col gap-10 items-center w-full px-5 '
       id='about'
     >
       <h1 className='header-title animate-fade-up font-display'>About</h1>
-      <div className='flex flex-col gap-10 default-card p-10 text-black w-[80vw]'>
+      <div className='flex flex-col gap-10 default-card p-10 text-black w-[90vw] md:w-[80vw] h-full'>
         <p>
           BotHero es un asistente de WhatsApp impulsado por inteligencia
           artificial que puede ayudarte con una variedad de tareas, desde

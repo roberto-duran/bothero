@@ -57,7 +57,7 @@ const cardsContainerVariants: Variants = {
 
 export default function Features () {
   return (
-    <section className='z-10 my-10' id='features'>
+    <section className='z-10 my-10 px-4 md:px-0' id='features'>
       <h1 className='header-title animate-fade-up font-display mb-10'>
         Features
       </h1>
