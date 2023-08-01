@@ -3,31 +3,44 @@
 import React from 'react'
 import Card, { CardProp } from '@/components/shared/card'
 import { motion, Variants } from 'framer-motion'
+import { BsChatSquareDotsFill } from 'react-icons/bs'
 
 const features: CardProp[] = [
   {
-    title: 'title1',
-    img: 'img',
+    title: 'Pregunta lo que quieras',
+    icon: <BsChatSquareDotsFill size='40' />,
     description: 'description',
-    header: 'header'
+    color: 'sky-600'
   },
   {
     title: 'title2',
-    img: 'img',
+    icon: 'icon',
     description: 'description',
-    header: 'header'
+    color: 'lime-500'
   },
   {
     title: 'title3',
-    img: 'img',
+    icon: 'icon',
     description: 'description',
-    header: 'header'
+    color: 'amber-600'
   },
   {
     title: 'title4',
-    img: 'img',
+    icon: 'icon',
     description: 'description',
-    header: 'header'
+    color: 'rose-400'
+  },
+  {
+    title: 'title5',
+    icon: 'icon',
+    description: 'description',
+    color: 'fuchsia-700'
+  },
+  {
+    title: 'title6',
+    icon: 'icon',
+    description: 'description',
+    color: 'pink-600'
   }
 ]
 
@@ -60,8 +73,8 @@ export default function Features () {
             key={feature.title}
             title={feature.title}
             description={feature.description}
-            header={feature.header}
-            img={feature.img}
+            icon={feature.icon}
+            color={feature.color}
           />
         ))}
       </motion.div>
