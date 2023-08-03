@@ -12,7 +12,7 @@ export default function Hero () {
           className='header-title animate-fade-up font-display'
           style={{ animationDelay: '0.15s', animationFillMode: 'forwards' }}
         >
-          BotHero <br />
+          BotHeroAI <br />
         </h1>
         <h3
           className='animate-fade-up font-display bg-gradient-to-br
@@ -37,7 +37,7 @@ export default function Hero () {
             rel='noopener noreferrer'
           >
             <BsWhatsapp />
-            <p>chat con bothero</p>
+            <p>chat con BotHeroAI</p>
           </Link>
         </div>
       </div>

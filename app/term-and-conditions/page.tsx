@@ -12,10 +12,10 @@ export default function page () {
           <h2>Terminos de Uso</h2>
           <p>
             Estos Términos y Condiciones (los &rdquo;Términos&rdquo;) establecen
-            los términos y condiciones que rigen su uso de la aplicación BotHero
-            (la &rdquo;Aplicación&rdquo;), que es propiedad y operada por
-            BotHero Inc. (&rdquo;BotHero&rdquo;). Al usar la Aplicación, usted
-            acepta estar vinculado por estos Términos. Si no acepta estos
+            los términos y condiciones que rigen su uso de la aplicación
+            BotHeroAI (la &rdquo;Aplicación&rdquo;), que es propiedad y operada
+            por BotHeroAI Inc. (&rdquo;BotHeroAI&rdquo;). Al usar la Aplicación,
+            usted acepta estar vinculado por estos Términos. Si no acepta estos
             Términos, no está autorizado a usar la Aplicación.
           </p>
         </article>
@@ -23,7 +23,7 @@ export default function page () {
         <article>
           <h2>Licencia</h2>
           <p>
-            BotHero le otorga una licencia personal, no exclusiva, no
+            BotHeroAI le otorga una licencia personal, no exclusiva, no
             transferible y revocable para usar la Aplicación. Esta licencia es
             para su uso personal y no comercial. No está autorizado a revender,
             alquilar o sublicenciar la Aplicación. También está prohibido
@@ -35,23 +35,24 @@ export default function page () {
         <article>
           <h2>Contenido de usuario</h2>
           <p>
-            BotHero se reserva el derecho, a su entera discreción, de modificar,
-            suspender o discontinuar la Aplicación en cualquier momento. BotHero
-            también se reserva el derecho de cambiar estos Términos en cualquier
-            momento. Usted está sujeto a cualquier cambio en los Términos por el
-            mero uso de la Aplicación después de que se publiquen los cambios.
+            BotHeroAI se reserva el derecho, a su entera discreción, de
+            modificar, suspender o discontinuar la Aplicación en cualquier
+            momento. BotHeroAI también se reserva el derecho de cambiar estos
+            Términos en cualquier momento. Usted está sujeto a cualquier cambio
+            en los Términos por el mero uso de la Aplicación después de que se
+            publiquen los cambios.
           </p>
         </article>
 
         <article>
           <h2>Exclusión de garantías</h2>
           <p>
-            BotHero proporciona la Aplicación &rdquo;tal cual&rdquo; y
-            &rdquo;según esté disponible&rdquo;. BotHero no hace ninguna
+            BotHeroAI proporciona la Aplicación &rdquo;tal cual&rdquo; y
+            &rdquo;según esté disponible&rdquo;. BotHeroAI no hace ninguna
             declaración o garantía de ningún tipo, expresa o implícita, con
             respecto a la Aplicación, incluyendo, pero sin limitar, las
             garantías implícitas de comerciabilidad, idoneidad para un propósito
-            particular y no infracción. BotHero no garantiza que la Aplicación
+            particular y no infracción. BotHeroAI no garantiza que la Aplicación
             cumplirá con sus requisitos o que la Aplicación estará libre de
             errores o interrupciones.
           </p>
@@ -60,11 +61,11 @@ export default function page () {
         <article>
           <h2>Limitación de responsabilidad</h2>
           <p>
-            En ningún caso BotHero será responsable por ningún daño directo,
+            En ningún caso BotHeroAI será responsable por ningún daño directo,
             indirecto, incidental, especial, consecuente o punitivo, incluyendo,
             pero sin limitar, daños por pérdida de beneficios, pérdida de datos,
             pérdida de uso o interrupción del negocio, que surjan del uso o
-            incapacidad de usar la Aplicación, incluso si BotHero ha sido
+            incapacidad de usar la Aplicación, incluso si BotHeroAI ha sido
             notificado de la posibilidad de tales daños.
           </p>
         </article>
@@ -90,8 +91,8 @@ export default function page () {
             por escrito y serán considerados debidamente entregados cuando se
             envíen por correo certificado, con acuse de recibo, pagado por
             adelantado, un día después de la fecha de envío, a la dirección de
-            BotHero indicada en la parte superior de estos Términos, o a la
-            dirección que BotHero le proporcione por escrito. También pueden
+            BotHeroAI indicada en la parte superior de estos Términos, o a la
+            dirección que BotHeroAI le proporcione por escrito. También pueden
             darse avisos por correo electrónico o por cualquier otro medio que
             sea razonablemente seguro y efectivo.
           </p>
@@ -102,7 +103,7 @@ export default function page () {
           <p>
             Estas Condiciones y todos los documentos a los que se hace
             referencia expresamente constituyen el acuerdo completo entre usted
-            y BotHero con respecto al objeto de estos Términos y reemplazan
+            y BotHeroAI con respecto al objeto de estos Términos y reemplazan
             todos los acuerdos, representaciones y entendimientos anteriores o
             simultáneos, ya sean orales o escritos, con respecto al objeto de
             estos Términos.
@@ -112,7 +113,7 @@ export default function page () {
         <article>
           <h2>Contenido de usuario</h2>
           <p>
-            Todo el contenido publicado por usted en la aplicación BotHero (el
+            Todo el contenido publicado por usted en la aplicación BotHeroAI (el
             &rdquo;Contenido de usuario&rdquo;) es de su exclusiva
             responsabilidad. Usted garantiza que el Contenido de usuario es suyo
             y que no infringe los derechos de propiedad intelectual de terceros.

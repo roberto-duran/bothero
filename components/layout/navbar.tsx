@@ -18,13 +18,13 @@ export default function NavBar () {
       <div className='mx-5 flex h-16 w-full items-center justify-between'>
         <Link href='/' className='font-display flex items-center text-2xl'>
           <Image
-            src='/bothero.png'
+            src='/botheroai.png'
             alt='Precedent logo'
             width='30'
             height='30'
             className='mr-2 rounded-sm'
           ></Image>
-          <p className='text-gray-800 font-semibold'>BotHero</p>
+          <p className='text-gray-800 font-semibold'>BotHeroAI</p>
         </Link>
         {/* menu */}
         <div className='text-black'>

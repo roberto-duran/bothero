@@ -11,7 +11,7 @@ const poppings = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Bothero',
+  title: 'BotHeroAI',
   icons: {
     icon: 'favicon.ico'
   },
