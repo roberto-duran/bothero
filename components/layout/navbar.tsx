@@ -44,7 +44,7 @@ export default function NavBar () {
             className='flex items-center justify-center rounded-full 
       bg-[#25d366] p-2 text-white transition-colors duration-500
        hover:bg-white  hover:text-[#25d366]'
-            href='https://wa.me/573058505642'
+            href='https://wa.me/50761369407'
             target='_blank'
             rel='noopener noreferrer'
           >

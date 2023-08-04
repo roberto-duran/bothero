@@ -58,6 +58,16 @@ html {
   --border-radius: 40px;
 }
 
+/* 
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* Prevents overflow on the x-axis */
+  overflow-x: hidden;
+} */
+
 body {
   -webkit-font-smoothing: antialiased;
   background: var(--active-color);

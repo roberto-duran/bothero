@@ -32,7 +32,7 @@ export default function Hero () {
             className='group flex max-w-fit items-center justify-center space-x-2 rounded-full 
       bg-[#25d366] px-5 py-2 text-sm text-white transition-colors duration-500
        hover:bg-white hover:text-[#25d366]'
-            href='https://wa.me/573058505642'
+            href='https://wa.me/50761369407'
             target='_blank'
             rel='noopener noreferrer'
           >
