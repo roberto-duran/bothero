@@ -57,7 +57,7 @@ const cardsContainerVariants: Variants = {
 
 export default function Features () {
   return (
-    <section className='z-10 my-10 px-4 md:px-0' id='features'>
+    <section className='my-10 px-0 md:px-4' id='features'>
       <h1 className='header-title animate-fade-up font-display mb-10'>
         Features
       </h1>
@@ -66,7 +66,7 @@ export default function Features () {
         initial='hidden'
         whileInView='show'
         viewport={{ once: true, amount: 0.8 }}
-        className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'
+        className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'
       >
         {features.map(feature => (
           <Card

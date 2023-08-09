@@ -24,10 +24,10 @@ export default function NavBar () {
             height='30'
             className='mr-2 rounded-sm'
           ></Image>
-          <p className='text-gray-800 font-semibold'>BotHeroAI</p>
+          <p className='text-gray-700 font-semibold'>BotHeroAI</p>
         </Link>
         {/* menu */}
-        <div className='text-black'>
+        <div className='text-gray-700'>
           <ul className='flex flex-row gap-5'>
             <li className='navbar-menu'>
               <a href='#about'>About</a>
