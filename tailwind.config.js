@@ -18,7 +18,8 @@ module.exports = {
     'border-fuchsia-700',
     'bg-fuchsia-700/50',
     'border-pink-600',
-    'bg-pink-600/50'
+    'bg-pink-600/50',
+    'bg-darkViolet'
   ],
   theme: {
     extend: {

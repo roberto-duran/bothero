@@ -1,6 +1,7 @@
 import { BsWhatsapp } from 'react-icons/bs'
 import Link from 'next/link'
 import Image from 'next/image'
+import WhatsappButton from '../shared/WhatsappButton'
 
 export default function Hero () {
   return (
@@ -10,14 +11,14 @@ export default function Hero () {
     >
       <div className='bg-gray-800/30 p-8 md:p-14 rounded-xl w-full gradient'>
         <div className='flex flex-col justify-between items-center md:flex-row gap-10'>
-          <div>
+          <div className='flex flex-col items-center justify-center'>
             <h1
               className='text-2xl md:text-4xl font-bold text-gray-700'
               style={{ animationDelay: '0.15s', animationFillMode: 'forwards' }}
             >
               Tu Asistente inteligente <br />
             </h1>
-            <h3 className='text-lg text-gray-500 font-bold'>
+            <h3 className='text-lg text-gray-500 font-bold max-w-[100rem]'>
               Tu asistente personal de WhatsApp, siempre disponible y listo para
               ayudarte.
             </h3>
@@ -26,26 +27,15 @@ export default function Hero () {
               className='animate-fade-up mx-auto mt-6 flex items-center justify-center space-x-5 opacity-95'
               style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
             >
-              <Link
-                className='group flex max-w-fit items-center justify-center space-x-2 rounded-full 
-      bg-[#25d366] px-5 py-2 text-sm text-white transition-colors duration-500
-       hover:bg-white hover:text-[#25d366]'
-                href='https://wa.me/50761369407'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <BsWhatsapp />
-                <p>chatea con BotHeroAI</p>
-              </Link>
+              <WhatsappButton />
             </div>
           </div>
 
-          <div>
+          <div className='relative h-[500px] w-[257px] lg:h-[647px] lg:w-[326px]'>
             <Image
               src='/whatsapp-bothero.png'
               alt='whatsapp bothero'
-              width={326}
-              height={647}
+              fill={true}
             />
           </div>
         </div>

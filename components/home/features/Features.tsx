@@ -59,7 +59,7 @@ export default function Features () {
   return (
     <section className='my-10 px-0 md:px-4' id='features'>
       <h1 className='header-title animate-fade-up font-display mb-10'>
-        Features
+        Que Puedo Hacer
       </h1>
       <motion.div
         variants={cardsContainerVariants}
